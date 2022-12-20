@@ -98,6 +98,7 @@
 		D848D46929521870007E19A1 /* SouthStationSolari */ = {
 			isa = PBXGroup;
 			children = (
+				D84F3CCF295228DE009CD776 /* fonts */,
 				D848D46A29521870007E19A1 /* AppDelegate.swift */,
 				D848D46C29521870007E19A1 /* ViewController.swift */,
 				D848D46E29521870007E19A1 /* Main.storyboard */,
@@ -122,6 +123,13 @@
 				D848D48A29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift */,
 			);
 			path = SouthStationSolariUITests;
+			sourceTree = "<group>";
+		};
+		D84F3CCF295228DE009CD776 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

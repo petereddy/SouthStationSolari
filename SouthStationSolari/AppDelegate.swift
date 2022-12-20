@@ -33,6 +33,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func applicationDidBecomeActive(_ application: UIApplication) {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    let fontFamilyNames = UIFont.familyNames
+    for familyName in fontFamilyNames {
+      print("------------------------------")
+      print("Font Family Name = [\(familyName)]")
+      let names = UIFont.fontNames(forFamilyName: familyName)
+      print("Font Names = [\(names)]")
+    }
   }
 }
 

@@ -10,10 +10,12 @@ import Splitflap
 
 class ViewController: UIViewController, SplitflapDataSource, SplitflapDelegate {
   
+  static let CharacterSet = " ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".map { String($0) }
+
   @IBOutlet weak var splitflap: Splitflap!
   @IBOutlet weak var actionButton: UIButton!
 
-  private let words        = ["Hey you", "Bonsoir", "12h15", "Arrival"]
+  private let words        = ["TRAIN", "BOAT", "12h15", "ARRIVAL"]
   private var currentIndex = 0
 
   override func viewDidLoad() {
@@ -49,24 +51,24 @@ class ViewController: UIViewController, SplitflapDataSource, SplitflapDelegate {
   // MARK: - Splitflap DataSource Methods
 
   func numberOfFlapsInSplitflap(_ splitflap: Splitflap) -> Int {
-    return 7
+    return 10
   }
 
   func tokensInSplitflap(_ splitflap: Splitflap) -> [String] {
-    return SplitflapTokens.AlphanumericAndSpace
+    return ViewController.CharacterSet
   }
 
   // MARK: - Splitflap Delegate Methods
 
-  func splitflap(splitflap: Splitflap, rotationDurationForFlapAtIndex index: Int) -> Double {
-    return 0.2
+  func splitflap(_ splitflap: Splitflap, rotationDurationForFlapAtIndex index: Int) -> Double {
+    return 0.15
   }
-
-  func splitflap(splitflap: Splitflap, builderForFlapAtIndex index: Int) -> FlapViewBuilder {
+  
+  func splitflap(_ splitflap: Splitflap, builderForFlapAtIndex index: Int) -> FlapViewBuilder {
     return FlapViewBuilder { builder in
       builder.backgroundColor = UIColor.black
       builder.cornerRadius    = 5
-      builder.font            = UIFont(name: "Courier", size: 80)
+      builder.font            = UIFont(name: "Menlo", size: 70)
       builder.textAlignment   = .center
       builder.textColor       = UIColor.white
       builder.lineColor       = UIColor.darkGray
