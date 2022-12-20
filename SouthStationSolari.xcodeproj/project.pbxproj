@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D848D46B29521870007E19A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D46A29521870007E19A1 /* AppDelegate.swift */; };
+		D848D46D29521870007E19A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D46C29521870007E19A1 /* ViewController.swift */; };
+		D848D47029521870007E19A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D848D46E29521870007E19A1 /* Main.storyboard */; };
+		D848D47229521871007E19A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D848D47129521871007E19A1 /* Assets.xcassets */; };
+		D848D47529521871007E19A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D848D47329521871007E19A1 /* LaunchScreen.storyboard */; };
+		D848D47F29521872007E19A1 /* SouthStationSolariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D47E29521872007E19A1 /* SouthStationSolariTests.swift */; };
+		D848D48929521872007E19A1 /* SouthStationSolariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D48829521872007E19A1 /* SouthStationSolariUITests.swift */; };
+		D848D48B29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D48A29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D848D47B29521872007E19A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D848D45F29521870007E19A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D848D46629521870007E19A1;
+			remoteInfo = SouthStationSolari;
+		};
+		D848D48529521872007E19A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D848D45F29521870007E19A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D848D46629521870007E19A1;
+			remoteInfo = SouthStationSolari;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D848D46729521870007E19A1 /* SouthStationSolari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthStationSolari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D848D46A29521870007E19A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D848D46C29521870007E19A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D848D46F29521870007E19A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D848D47129521871007E19A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D848D47429521871007E19A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D848D47A29521872007E19A1 /* SouthStationSolariTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthStationSolariTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D848D47E29521872007E19A1 /* SouthStationSolariTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthStationSolariTests.swift; sourceTree = "<group>"; };
+		D848D48429521872007E19A1 /* SouthStationSolariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthStationSolariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D848D48829521872007E19A1 /* SouthStationSolariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthStationSolariUITests.swift; sourceTree = "<group>"; };
+		D848D48A29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthStationSolariUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D848D46429521870007E19A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848D47729521872007E19A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848D48129521872007E19A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D848D45E29521870007E19A1 = {
+			isa = PBXGroup;
+			children = (
+				D848D46929521870007E19A1 /* SouthStationSolari */,
+				D848D47D29521872007E19A1 /* SouthStationSolariTests */,
+				D848D48729521872007E19A1 /* SouthStationSolariUITests */,
+				D848D46829521870007E19A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D848D46829521870007E19A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D848D46729521870007E19A1 /* SouthStationSolari.app */,
+				D848D47A29521872007E19A1 /* SouthStationSolariTests.xctest */,
+				D848D48429521872007E19A1 /* SouthStationSolariUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D848D46929521870007E19A1 /* SouthStationSolari */ = {
+			isa = PBXGroup;
+			children = (
+				D848D46A29521870007E19A1 /* AppDelegate.swift */,
+				D848D46C29521870007E19A1 /* ViewController.swift */,
+				D848D46E29521870007E19A1 /* Main.storyboard */,
+				D848D47129521871007E19A1 /* Assets.xcassets */,
+				D848D47329521871007E19A1 /* LaunchScreen.storyboard */,
+			);
+			path = SouthStationSolari;
+			sourceTree = "<group>";
+		};
+		D848D47D29521872007E19A1 /* SouthStationSolariTests */ = {
+			isa = PBXGroup;
+			children = (
+				D848D47E29521872007E19A1 /* SouthStationSolariTests.swift */,
+			);
+			path = SouthStationSolariTests;
+			sourceTree = "<group>";
+		};
+		D848D48729521872007E19A1 /* SouthStationSolariUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D848D48829521872007E19A1 /* SouthStationSolariUITests.swift */,
+				D848D48A29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift */,
+			);
+			path = SouthStationSolariUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D848D46629521870007E19A1 /* SouthStationSolari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D848D48E29521872007E19A1 /* Build configuration list for PBXNativeTarget "SouthStationSolari" */;
+			buildPhases = (
+				D848D46329521870007E19A1 /* Sources */,
+				D848D46429521870007E19A1 /* Frameworks */,
+				D848D46529521870007E19A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SouthStationSolari;
+			productName = SouthStationSolari;
+			productReference = D848D46729521870007E19A1 /* SouthStationSolari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D848D47929521872007E19A1 /* SouthStationSolariTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D848D49129521872007E19A1 /* Build configuration list for PBXNativeTarget "SouthStationSolariTests" */;
+			buildPhases = (
+				D848D47629521872007E19A1 /* Sources */,
+				D848D47729521872007E19A1 /* Frameworks */,
+				D848D47829521872007E19A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D848D47C29521872007E19A1 /* PBXTargetDependency */,
+			);
+			name = SouthStationSolariTests;
+			productName = SouthStationSolariTests;
+			productReference = D848D47A29521872007E19A1 /* SouthStationSolariTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D848D48329521872007E19A1 /* SouthStationSolariUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D848D49429521872007E19A1 /* Build configuration list for PBXNativeTarget "SouthStationSolariUITests" */;
+			buildPhases = (
+				D848D48029521872007E19A1 /* Sources */,
+				D848D48129521872007E19A1 /* Frameworks */,
+				D848D48229521872007E19A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D848D48629521872007E19A1 /* PBXTargetDependency */,
+			);
+			name = SouthStationSolariUITests;
+			productName = SouthStationSolariUITests;
+			productReference = D848D48429521872007E19A1 /* SouthStationSolariUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D848D45F29521870007E19A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D848D46629521870007E19A1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D848D47929521872007E19A1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D848D46629521870007E19A1;
+					};
+					D848D48329521872007E19A1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D848D46629521870007E19A1;
+					};
+				};
+			};
+			buildConfigurationList = D848D46229521870007E19A1 /* Build configuration list for PBXProject "SouthStationSolari" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D848D45E29521870007E19A1;
+			productRefGroup = D848D46829521870007E19A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D848D46629521870007E19A1 /* SouthStationSolari */,
+				D848D47929521872007E19A1 /* SouthStationSolariTests */,
+				D848D48329521872007E19A1 /* SouthStationSolariUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D848D46529521870007E19A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848D47529521871007E19A1 /* LaunchScreen.storyboard in Resources */,
+				D848D47229521871007E19A1 /* Assets.xcassets in Resources */,
+				D848D47029521870007E19A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848D47829521872007E19A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848D48229521872007E19A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D848D46329521870007E19A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848D46D29521870007E19A1 /* ViewController.swift in Sources */,
+				D848D46B29521870007E19A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848D47629521872007E19A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848D47F29521872007E19A1 /* SouthStationSolariTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D848D48029521872007E19A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D848D48929521872007E19A1 /* SouthStationSolariUITests.swift in Sources */,
+				D848D48B29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D848D47C29521872007E19A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D848D46629521870007E19A1 /* SouthStationSolari */;
+			targetProxy = D848D47B29521872007E19A1 /* PBXContainerItemProxy */;
+		};
+		D848D48629521872007E19A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D848D46629521870007E19A1 /* SouthStationSolari */;
+			targetProxy = D848D48529521872007E19A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D848D46E29521870007E19A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D848D46F29521870007E19A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D848D47329521871007E19A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D848D47429521871007E19A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D848D48C29521872007E19A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		D848D48D29521872007E19A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D848D48F29521872007E19A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pje.SouthStationSolari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		D848D49029521872007E19A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pje.SouthStationSolari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		D848D49229521872007E19A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pje.SouthStationSolariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouthStationSolari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SouthStationSolari";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		D848D49329521872007E19A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pje.SouthStationSolariTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouthStationSolari.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SouthStationSolari";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Release;
+		};
+		D848D49529521872007E19A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pje.SouthStationSolariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = SouthStationSolari;
+			};
+			name = Debug;
+		};
+		D848D49629521872007E19A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pje.SouthStationSolariUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = SouthStationSolari;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D848D46229521870007E19A1 /* Build configuration list for PBXProject "SouthStationSolari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848D48C29521872007E19A1 /* Debug */,
+				D848D48D29521872007E19A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D848D48E29521872007E19A1 /* Build configuration list for PBXNativeTarget "SouthStationSolari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848D48F29521872007E19A1 /* Debug */,
+				D848D49029521872007E19A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D848D49129521872007E19A1 /* Build configuration list for PBXNativeTarget "SouthStationSolariTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848D49229521872007E19A1 /* Debug */,
+				D848D49329521872007E19A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D848D49429521872007E19A1 /* Build configuration list for PBXNativeTarget "SouthStationSolariUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D848D49529521872007E19A1 /* Debug */,
+				D848D49629521872007E19A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D848D45F29521870007E19A1 /* Project object */;
+}
