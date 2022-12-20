@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "splitflap",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yannickl/Splitflap",
+      "state" : {
+        "revision" : "04716937ebffcbd23c8e5080e0341c8978279edb",
+        "version" : "4.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}
