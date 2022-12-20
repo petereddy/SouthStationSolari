@@ -15,6 +15,7 @@
 		D848D47F29521872007E19A1 /* SouthStationSolariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D47E29521872007E19A1 /* SouthStationSolariTests.swift */; };
 		D848D48929521872007E19A1 /* SouthStationSolariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D48829521872007E19A1 /* SouthStationSolariUITests.swift */; };
 		D848D48B29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D48A29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift */; };
+		D8DDB35529522182007B21F8 /* Splitflap in Frameworks */ = {isa = PBXBuildFile; productRef = D8DDB35429522182007B21F8 /* Splitflap */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8DDB35529522182007B21F8 /* Splitflap in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +140,9 @@
 			dependencies = (
 			);
 			name = SouthStationSolari;
+			packageProductDependencies = (
+				D8DDB35429522182007B21F8 /* Splitflap */,
+			);
 			productName = SouthStationSolari;
 			productReference = D848D46729521870007E19A1 /* SouthStationSolari.app */;
 			productType = "com.apple.product-type.application";
@@ -210,6 +215,9 @@
 				Base,
 			);
 			mainGroup = D848D45E29521870007E19A1;
+			packageReferences = (
+				D8DDB35329522182007B21F8 /* XCRemoteSwiftPackageReference "Splitflap" */,
+			);
 			productRefGroup = D848D46829521870007E19A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -584,6 +592,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D8DDB35329522182007B21F8 /* XCRemoteSwiftPackageReference "Splitflap" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yannickl/Splitflap";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D8DDB35429522182007B21F8 /* Splitflap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D8DDB35329522182007B21F8 /* XCRemoteSwiftPackageReference "Splitflap" */;
+			productName = Splitflap;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D848D45F29521870007E19A1 /* Project object */;
 }
