@@ -15,6 +15,8 @@
 		D848D47F29521872007E19A1 /* SouthStationSolariTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D47E29521872007E19A1 /* SouthStationSolariTests.swift */; };
 		D848D48929521872007E19A1 /* SouthStationSolariUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D48829521872007E19A1 /* SouthStationSolariUITests.swift */; };
 		D848D48B29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D848D48A29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift */; };
+		D892328B29524CDB006A60CC /* SolariBoardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892328A29524CDB006A60CC /* SolariBoardRow.swift */; };
+		D892328E29524FE9006A60CC /* TrainInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892328D29524FE9006A60CC /* TrainInfo.swift */; };
 		D8DDB35529522182007B21F8 /* Splitflap in Frameworks */ = {isa = PBXBuildFile; productRef = D8DDB35429522182007B21F8 /* Splitflap */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		D848D48429521872007E19A1 /* SouthStationSolariUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthStationSolariUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D848D48829521872007E19A1 /* SouthStationSolariUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthStationSolariUITests.swift; sourceTree = "<group>"; };
 		D848D48A29521872007E19A1 /* SouthStationSolariUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthStationSolariUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D892328A29524CDB006A60CC /* SolariBoardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolariBoardRow.swift; sourceTree = "<group>"; };
+		D892328D29524FE9006A60CC /* TrainInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +102,14 @@
 		D848D46929521870007E19A1 /* SouthStationSolari */ = {
 			isa = PBXGroup;
 			children = (
+				D892328C29524FA3006A60CC /* Data */,
 				D84F3CCF295228DE009CD776 /* fonts */,
 				D848D46A29521870007E19A1 /* AppDelegate.swift */,
 				D848D46C29521870007E19A1 /* ViewController.swift */,
 				D848D46E29521870007E19A1 /* Main.storyboard */,
 				D848D47129521871007E19A1 /* Assets.xcassets */,
 				D848D47329521871007E19A1 /* LaunchScreen.storyboard */,
+				D892328A29524CDB006A60CC /* SolariBoardRow.swift */,
 			);
 			path = SouthStationSolari;
 			sourceTree = "<group>";
@@ -130,6 +136,14 @@
 			children = (
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		D892328C29524FA3006A60CC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D892328D29524FE9006A60CC /* TrainInfo.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D892328B29524CDB006A60CC /* SolariBoardRow.swift in Sources */,
+				D892328E29524FE9006A60CC /* TrainInfo.swift in Sources */,
 				D848D46D29521870007E19A1 /* ViewController.swift in Sources */,
 				D848D46B29521870007E19A1 /* AppDelegate.swift in Sources */,
 			);

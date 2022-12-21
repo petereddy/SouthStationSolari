@@ -29,19 +29,19 @@ class ViewController: UIViewController, SplitflapDataSource, SplitflapDelegate {
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
 
-    updateSplitFlapAction(actionButton)
+    updateSplitFlapAction()
   }
 
   // MARK: - Action Methods
 
-  @IBAction func updateSplitFlapAction(_ sender: AnyObject) {
+  @IBAction func updateSplitFlapAction() {
     splitflap.setText(words[currentIndex], animated: true, completionBlock: {
       print("Display finished!")
     })
 
     currentIndex = (currentIndex + 1) % words.count
 
-    updateButtonWithTitle(words[currentIndex])
+//    updateButtonWithTitle(words[currentIndex])
   }
 
   private func updateButtonWithTitle(_ title: String) {
