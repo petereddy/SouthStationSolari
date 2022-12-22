@@ -40,7 +40,6 @@ class ViewController: UIViewController, SplitflapDataSource, SplitflapDelegate {
     })
 
     currentIndex = (currentIndex + 1) % words.count
-
 //    updateButtonWithTitle(words[currentIndex])
   }
 
